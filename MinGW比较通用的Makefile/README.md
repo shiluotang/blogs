@@ -60,4 +60,4 @@ MinGW比较通用的Makefile
         @echo       @@echo make object: ${patsubst ${SRCDIR}/%.${SRCEXT},${BUILDDIR}/%.o,${<}} >> ${@}  
         @echo       @@$${CC} $${FLAGS} -c -o $$@ $${filter %%.${SRCEXT},$$^^} >> ${@}  
 
-check the [Makefile here](#attachments/Makefile)
+check the [Makefile here](attachments/Makefile)
